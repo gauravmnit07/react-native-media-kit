@@ -132,7 +132,7 @@ class Controls extends React.Component {
           </TouchableOpacity>
 
           <Text
-            style={{alignSelf: 'center', fontSize: 12, color: 'white', width: currentFormated.length === 5 ? 35:56, textAlign: 'right'}}>
+            style={{alignSelf: 'center', fontSize: 12, color: 'white', minWidth: currentFormated.length === 5 ? 35:56, textAlign: 'right'}}>
             {currentFormated}
           </Text>
 
@@ -163,7 +163,7 @@ class Controls extends React.Component {
           />
 
           <Text
-            style={{alignSelf: 'center', fontSize: 12, color: 'white', width: totalFormated.length === 5 ? 35:56, marginRight: 10}}>
+            style={{alignSelf: 'center', fontSize: 12, color: 'white', minWidth: totalFormated.length === 5 ? 35:56, marginRight: 10}}>
             {totalFormated}
           </Text>
         </View>
